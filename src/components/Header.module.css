@@ -1,0 +1,45 @@
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: auto max-content;
+    align-items: center;
+}
+
+.about h1 {
+    margin: 0px;
+}
+
+.about i {
+    width:fit-content;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.links a {
+    border-bottom: 2px solid var(--text-color);
+    margin: 0px;
+    height: min-content;
+}
+
+.links a.active {
+    border-bottom-color: var(--accent-color);
+    transition: background-color 0.25s ease-in-out;
+}
+
+.links button {
+    background-color: var(--accent-color);
+    transition: background-color 0.25s ease-in-out;
+    justify-self: right;
+}
+
+.links .fill {
+    flex: 1 0 auto;
+}

@@ -1,0 +1,25 @@
+.song {
+    background: var(--color-highlight);
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.details {
+    flex: 1 0 content;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.details>p {
+    margin: 0px;
+}
+
+.cover {
+    aspect-ratio: 1;
+    object-fit: cover;
+    clip-path: inset(12.5%);
+    height: 100px;
+}

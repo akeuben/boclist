@@ -1,4 +1,6 @@
 .dataview {
-    background: gray;
+    background: var(--color-foreground);
     height: 100%;
+    padding: 10px;
+    border-radius: 10px;
 }
